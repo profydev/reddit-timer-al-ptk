@@ -13,7 +13,6 @@ const StyledHeader = styled.header`
 const StyledNav = styled.nav`
   a {
     text-decoration: none;
-    color: black;
     margin-left: 20px;
   }
 `;
