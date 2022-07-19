@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Search from './pages/Search/Search.component';
 
 function App() {
   return (
