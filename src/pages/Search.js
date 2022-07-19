@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../components/Footer/Footer.component';
-import Header from '../../components/Header/Header.component';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Search = () => (
   <div>
