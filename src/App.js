@@ -11,7 +11,9 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
+        {/* Remove all default styles */}
         <Normalize />
+        {/* Set custom Global Styles */}
         <GlobalStyle />
         <Routes>
           <Route path="/" element={<Home />} />

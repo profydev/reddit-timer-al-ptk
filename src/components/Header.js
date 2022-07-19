@@ -23,6 +23,8 @@ const Header = () => (
       <img src={logo} alt="Reddit Timer Logo" />
     </Link>
     <StyledNav>
+      {/* The Links are anchor elements, so they receive */}
+      {/* styling as an 'a' tag */}
       <Link to="/javascript">Search</Link>
       <Link to="#How-it-works">How it works</Link>
       <Link to="#About">About</Link>
