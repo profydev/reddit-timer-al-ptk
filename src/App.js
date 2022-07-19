@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/javascript" element={<Search />} />
         <Route path="*" element={<div>404</div>} />
       </Routes>
     </BrowserRouter>

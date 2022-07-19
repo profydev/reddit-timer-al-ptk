@@ -24,7 +24,7 @@ const Header = () => (
       <img src={logo} alt="Reddit Timer Logo" />
     </Link>
     <StyledNav>
-      <Link to="/search">Search</Link>
+      <Link to="/javascript">Search</Link>
       <Link to="#How-it-works">How it works</Link>
       <Link to="#About">About</Link>
     </StyledNav>
