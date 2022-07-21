@@ -27,9 +27,9 @@ const Header = () => (
     <StyledNav>
       {/* The Links are anchor elements, so they receive */}
       {/* styling as an 'a' tag */}
-      <Link to="/javascript">Search</Link>
-      <Link to="#How-it-works">How it works</Link>
-      <Link to="#About">About</Link>
+      <Link to="/search/javascript">Search</Link>
+      <Link to="#how-it-works">How it works</Link>
+      <Link to="#about">About</Link>
     </StyledNav>
   </StyledHeader>
 );
